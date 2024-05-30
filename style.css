@@ -44,6 +44,7 @@ p {
 .btn {
   color: rgb(53, 53, 53) !important;
   border: 2px solid rgb(240, 240, 240) !important;
+  font-weight: bold !important;
 }
 
 .btn:active {
