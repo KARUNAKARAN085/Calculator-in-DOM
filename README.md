@@ -9,4 +9,4 @@
 7. UI is responsive for all media screens.
 8. Included the test suite in html file.
 
-This page is also Deployed on Netlify: [Calculator Task]()
+This page is also Deployed on Netlify: [Calculator Task](https://calculator-task-dom-rk.netlify.app)
