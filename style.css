@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  background-image: linear-gradient(white, rgb(255, 255, 255));
+}
+h1,
+p {
+  font-family: "Libre Baskerville", serif !important;
+  letter-spacing: 2px;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.calculator {
+  width: 450px;
+  height: 525px;
+  border: 3px solid rgb(29, 37, 50);
+  background-color: rgb(177, 177, 177);
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.content {
+  height: 60vh;
+}
+.display {
+  background-color: rgb(212, 218, 214);
+  border: 2px solid rgb(29, 37, 50);
+  height: 60px;
+  font-size: 30px;
+  padding: 15px;
+}
+
+#point,
+#multi,
+#divide,
+#add,
+#subtract,
+#backspace,
+#mod {
+  font-weight: bolder;
+  font-size: large;
+  color: rgb(222, 99, 116) !important;
+}
+.btn {
+  color: rgb(53, 53, 53) !important;
+  border: 2px solid rgb(240, 240, 240) !important;
+}
+
+.btn:active {
+  background-color: hsla(229, 36%, 60%, 0.534) !important;
+}
+
+#equal:active {
+  background-color: hsla(229, 81%, 45%, 0.534) !important;
+}
+
+#equal {
+  letter-spacing: 5px;
+  border-radius: 25px;
+}
